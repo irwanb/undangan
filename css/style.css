@@ -2360,6 +2360,7 @@ fadeIn {  from {
   height: 25px;
   padding: 8px;
 width: 100%;
+margin-bottom: 10px;
 font-family: Arial;
   font-size: 14px;
   /* padding-left: 37px;
@@ -2375,6 +2376,7 @@ font-family: Arial;
   padding: 8px;
 width: 100%;
 font-family: Arial;
+margin-bottom: 10px;
   font-size: 14px;
 }
 
