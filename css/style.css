@@ -2337,23 +2337,23 @@ fadeIn {  from {
   background-size: cover;
 }
 
-.table {
+#fh5co-event .event-wrap table {
   background: #ffffff;
   border-radius: 5px;
   padding: 20px;
   margin-top: 20px;
 }
-.tr {
+#fh5co-event .event-wrap tr {
   height: 35px;
 }
-.textarea {
+#fh5co-event .event-wrap textarea {
   width: 100%;
   height: 100px;
   padding: 10px;
   font-family: Arial;
   font-size: 14px;
 }
-.input.nama {
+#fh5co-event .event-wrap input.nama {
   
   /* border: 1px solid #c9c9c9; */
   /* border-radius: 3px; */
@@ -2369,7 +2369,7 @@ font-family: Arial;
   -moz-transition: 1s all;
   -o-transition: 1s all; */
 }
-.input.alamat {
+#fh5co-event .event-wrap input.alamat {
   
   /* border: 1px solid #c9c9c9; */
   height: 25px;
