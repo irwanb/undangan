@@ -2347,7 +2347,7 @@ fadeIn {  from {
   height: 35px;
 }
 #fh5co-event .event-wrap textarea {
-  width: 75%;
+  width: 50%;
   height: 100px;
   padding: 10px;
   font-family: Arial;
@@ -2359,7 +2359,7 @@ fadeIn {  from {
   /* border-radius: 3px; */
   height: 25px;
   padding: 8px;
-width: 75%;
+width: 50%;
 margin-bottom: 10px;
 font-family: Arial;
   font-size: 14px;
@@ -2374,7 +2374,7 @@ font-family: Arial;
   /* border: 1px solid #c9c9c9; .*/
   height: 25px;
   padding: 8px;
-width: 75%;
+width: 50%;
 font-family: Arial;
 margin-bottom: 10px;
   font-size: 14px;
