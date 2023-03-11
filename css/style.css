@@ -2355,23 +2355,15 @@ fadeIn {  from {
 }
 #fh5co-event .event-wrap input.nama {
   
-  /* border: 1px solid #c9c9c9; */
-  /* border-radius: 3px; */
   height: 25px;
   padding: 8px;
 width: 100%;
-margin-bottom: 10px;
 font-family: Arial;
+margin-bottom: 10px;
   font-size: 14px;
-  /* padding-left: 37px;
-  margin-bottom: 8px;
-  transition: 1s all;
-  -moz-transition: 1s all;
-  -o-transition: 1s all; */
 }
 #fh5co-event .event-wrap input.alamat {
   
-  /* border: 1px solid #c9c9c9; .*/
   height: 25px;
   padding: 8px;
 width: 100%;
