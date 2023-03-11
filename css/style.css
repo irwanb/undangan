@@ -2380,6 +2380,18 @@ margin-bottom: 10px;
   font-size: 14px;
 }
 
+#fh5co-event .event-wrap input.testimoni {
+  
+  /* border: 1px solid #c9c9c9; .*/
+  height: 25px;
+  padding: 8px;
+width: 75%;
+font-family: Arial;
+margin-bottom: 10px;
+  font-size: 14px;
+}
+
+
 
 
 /*# sourceMappingURL=style.css.map */
