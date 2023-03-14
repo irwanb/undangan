@@ -657,6 +657,7 @@
 								<textarea name="pesan" placeholder="Pesan Anda"></textarea>
 								<input type='submit' value='kirim Ucapan'>
 							</form>
+						</br>
 							<div class='nama'>
 							<?php
 
