@@ -2383,7 +2383,32 @@ margin-bottom: 10px;
   font-size: 14px;
 }
 
+#fh5co-event .event-wrap .alarm {
+  color: #fd4646;
+  background-color: #fff0f0;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 2px;
+  border: 1px solid #ffd0d0;
+  }
 
+  /* #fh5co-event .event-wrap .list1 {
+    background-color: #f6f6f6;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+    border: 1px solid #e7e7e7;
+    } */
 
-
+    /* #fh5co-event .event-wrap .hr {
+      margin-top: 2px;
+      margin-bottom: 2px;
+      border-bottom: 1px dotted #e3e3e3;
+      border-right-style: none;
+      border-right-width: 0;
+      border-top-style: none;
+      border-top-width: 0;
+      border-left-style: none;
+      border-left-width: 0;
+      } */
 /*# sourceMappingURL=style.css.map */

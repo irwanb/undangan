@@ -663,7 +663,20 @@
 						<div class="event-wrap animate-box">
 							<h3 style="font-family: 'Oswald', Arial, serif;">Testimonial</h3>
 							<div class='testimoni'>
-								<!--  -->
+							<?php
+
+if(file_exists("db.html") && filesize("db.html") > 0){
+	$handle = fopen("db.html", "r");
+	$contents = fread($handle, filesize("db.html"));
+	fclose($handle);
+   
+	echo "$contents";
+}
+else {
+	echo "<div class='alarm'>no messages!<br/>be the first!</div>";
+}
+
+?>
 							</div>
 						</div>
 					</div>	
@@ -827,7 +840,7 @@
 	}
 	
 	function togglePlayButton1(play) {
-		document.getElementById("youtube-icon1").src = play ? "images/sto.png" : "images/play.png";
+		document.getElementById("youtube-icon1").src = play ? "images/pause.png" : "images/play.png";
 	}
 
 	function toggleAudio1() {
