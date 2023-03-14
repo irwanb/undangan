@@ -657,7 +657,7 @@
 								<textarea name="pesan" placeholder="Pesan Anda"></textarea>
 								<input type='submit' value='kirim Ucapan'>
 							</form>
-							<div class='testimoni'>
+							<div class='nama'>
 							<?php
 
 								if(file_exists("db.html") && filesize("db.html") > 0){
