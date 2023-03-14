@@ -658,11 +658,7 @@
 								<input type='submit' value='kirim Ucapan'>
 							</form>
 						</div>
-					</div>
-					<div class="col-md-6 col-sm-6">
-						<div class="event-wrap animate-box">
-							<h3 style="font-family: 'Oswald', Arial, serif;">Testimonial</h3>
-							<div class='testimoni'>
+						<div class='testimoni'>
 							<?php
 
 								if(file_exists("db.html") && filesize("db.html") > 0){
@@ -678,6 +674,11 @@
 
 							?>
 							</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="event-wrap animate-box">
+							<h3 style="font-family: 'Oswald', Arial, serif;">Testimonial</h3>
+							
 						</div>
 					</div>	
 				</div>
