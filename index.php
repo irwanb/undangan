@@ -665,18 +665,18 @@
 							<div class='testimoni'>
 							<?php
 
-if(file_exists("db.html") && filesize("db.html") > 0){
-	$handle = fopen("db.html", "r");
-	$contents = fread($handle, filesize("db.html"));
-	fclose($handle);
-   
-	echo "$contents";
-}
-else {
-	echo "<div class='alarm'>no messages!<br/>be the first!</div>";
-}
+								if(file_exists("db.html") && filesize("db.html") > 0){
+									$handle = fopen("db.html", "r");
+									$contents = fread($handle, filesize("db.html"));
+									fclose($handle);
+								
+									echo "$contents";
+								}
+								else {
+									echo "<div class='alarm'>no messages!<br/>be the first!</div>";
+								}
 
-?>
+							?>
 							</div>
 						</div>
 					</div>	
