@@ -14,6 +14,6 @@
         fclose($fp);
     }
    
-    header('location:index.php');
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
    
 ?>
