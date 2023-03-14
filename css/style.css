@@ -2378,6 +2378,7 @@ margin-bottom: 10px;
   padding-right: 1px;
   padding-left: 1px;
   border: 1px solid #dadada;
+  scroll-behavior:auto;
 }
 
 #fh5co-event .event-wrap .alarm {
@@ -2395,6 +2396,14 @@ margin-bottom: 10px;
     margin-bottom: 1px;
     padding: 2px;
     border: 1px solid #e7e7e7;
+    }
+
+  #fh5co-event .event-wrap .list2 {
+    background-color: #fdfdfd;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+    border: 1px solid #ececec;
     }
 
     /* #fh5co-event .event-wrap .hr {
