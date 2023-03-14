@@ -2375,12 +2375,9 @@ margin-bottom: 10px;
 #fh5co-event .event-wrap .testimoni {
   
   /* border: 1px solid #c9c9c9; .*/
-  height: 25px;
-  padding: 8px;
-width: 100%;
-font-family: Arial;
-margin-bottom: 10px;
-  font-size: 14px;
+  padding-right: 1px;
+  padding-left: 1px;
+  border: 1px solid #dadada;
 }
 
 #fh5co-event .event-wrap .alarm {
