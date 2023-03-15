@@ -664,7 +664,8 @@
 							<h3 style="font-family: 'Oswald', Arial, serif;">Testimonial</h3>
 							<div class='testimoni'>
 							<?php
-
+								header("Access-Control-Allow-Origin: *");
+								header("Access-Control-Allow-Methods: GET, POST");
 								if(file_exists("db.html") && filesize("db.html") > 0){
 									$handle = fopen("db.html", "r");
 									$contents = fread($handle, filesize("db.html"));
