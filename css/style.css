@@ -2373,13 +2373,20 @@ margin-bottom: 10px;
   font-size: 14px;
 }
 
-#fh5co-event .event-wrap .testimoni {
-  
+#fh5co-event .event-wrap .testimoni{
+  display:block;
+  border: 1px solid #c9c9c9;
+  padding:1px;
+  margin-top:5px;
+  width:100%;
+  height: 210px;
+  overflow:auto;
+
   /* border: 1px solid #c9c9c9; .*/
-  padding-right: 1px;
+  /* padding-right: 1px;
   padding-left: 1px;
   border: 1px solid #dadada;
-  scroll-behavior:auto;
+  scroll-behavior:auto; */
 }
 
 #fh5co-event .event-wrap .alarm {
